@@ -8,7 +8,7 @@ Command line tool and C++ library for working with UUIDs.
 
 Usage:
 
-   uuid [-h] [base58] [encode <UUID>] [decode <BASE58>
+   uuid [-h] [base58] [encode <UUID>] [decode <BASE58>]
 
 Examples:
 
