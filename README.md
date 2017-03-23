@@ -61,6 +61,6 @@ namespace UUID {
 Built and tested on FreeBSD with Clang, Boost and BSD Make.
 
 ```
-make tests
-make
+$ make tests
+$ make
 ```
