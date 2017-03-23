@@ -8,25 +8,25 @@ Command line tool and C++ library for working with UUIDs.
 
 Usage:
 
-   ./bin/uuid [-h] [base58] [encode <UUID>] [decode <BASE58>
+   uuid [-h] [base58] [encode <UUID>] [decode <BASE58>
 
 Examples:
 
    # Output usage information
-   ./bin/uuid -h
+   uuid -h
 
    # Generate a UUID
-   ./bin/uuid
+   uuid
 
    # Generate a base58-encoded UUID
-   ./bin/uuid base58
-   ./bin/uuid b58
+   uuid base58
+   uuid b58
 
    # Convert a UUID to a base58-encoded UUID
-   ./bin/uuid encode 42cc29d0-4f99-4d4f-841f-af1052a0678f
+   uuid encode 42cc29d0-4f99-4d4f-841f-af1052a0678f
 
    # Convert a base58-encoded UUID to a UUID
-   ./bin/uuid decode 6yMBfeG7aghLQAzzX1JgZk
+   uuid decode 6yMBfeG7aghLQAzzX1JgZk
 
 ```
 
