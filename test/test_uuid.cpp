@@ -34,7 +34,7 @@ TEST_CASE(" Test Parse ") {
     UUID::uuid  id = UUID::parse("3978cc9e-caaf-4db9-b67f-e3cc354d4e66");
     string     sid = UUID::base58_encode(id);
 
-    REQUIRE( sid == "HJPLHqb96NXab4vASYXHCd");
+    REQUIRE( sid == "HJPLHqb96NXab4vASYXHCd" );
 
 }
 
@@ -43,6 +43,6 @@ TEST_CASE(" Test Parse 2 ") {
     UUID::uuid  id = UUID::parse("74e5ed3a-9714-4d4a-b080-f84b204856b0");
     string     sid = UUID::base58_encode(id);
 
-    REQUIRE( sid == "Jn1ct2N3CM5dXhAG9oAWLn");
+    REQUIRE( sid == "Jn1ct2N3CM5dXhAG9oAWLn" );
 
 }

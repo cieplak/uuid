@@ -5,13 +5,17 @@ namespace UUID {
 
     typedef boost::uuids::uuid uuid;
 
+    enum Endianness {
+        Big, Little
+    };
+
     uuid parse(std::string sid);
 
     std::string serialize(uuid id);
 
-    uuid base58_decode(std::string encoded);
+    uuid base58_decode(std::string encoded, Endianness endianness);
 
-    std::string base58_encode(uuid id);
+    std::string base58_encode(uuid id, Endianness endianness);
 
     uuid generate();
 
