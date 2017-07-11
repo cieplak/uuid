@@ -6,7 +6,7 @@ default: cli
 all: tests cli
 
 cli:
-	c++ -std=c++1z $(INCLUDES) src/uuid.cpp src/cli.cpp -o bin/uuid
+	c++ -std=c++1z $(INCLUDES) src/cli.cpp -o bin/uuid
 
 cli-debug:
 	c++ -g -std=c++1z $(INCLUDES) src/uuid.cpp src/cli.cpp -o bin/uuid
